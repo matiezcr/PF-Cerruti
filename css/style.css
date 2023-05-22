@@ -10,19 +10,35 @@ background-color:#79e983cc ; border:black solid 1px;
 display:flex ; flex-direction: row ; justify-content:space-between ;align-items:center;}
 
     .inicio-izquierdo{display:flex;flex-direction:row; align-items: center;gap:15px }
+    .inicio-derecho{display:flex;flex-direction:row; align-items: center;gap:15px }
 
     .logo-h{height: 30px;}
-    h1{font-family: 'Bruno Ace', cursive; font-size:1.2rem;}
+    h1{font-family: 'Bruno Ace', cursive; font-size:0.8rem;}
 
 nav{background-color:#43ce4ab9; padding: 6px; border: black solid 1px;}
     .nav-list {font-size: 1rem; font-family: 'Bruno Ace', cursive;
     display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}
+    .abrir-menu{display:none}
+    .cerrar-menu{display:none}
+    
+  @media (max-width:600px) {
+.abrir-menu, .cerrar-menu{display:block;
+    border:0; font-size: 25px; background-color: transparent; cursor: pointer}
+.logo-h2{display:none}
+.logo-h {height:25px}
+nav {opacity: 0; visibility: hidden;
+    display: flex; flex-direction: column; 
+    position: absolute; top: 0; right: 0; bottom: 0; padding: 1rem;
+    background-color:#1eb62b; box-shadow: 0 0 0 100vmax #083d0d70;}
+.visible {opacity: 1; visibility: visible;}
+.nav-list {display: flex; flex-direction: column; align-items: end; gap:15px}
+.nav-list li a {color:#000000}}
 
 
 /*Main INICIO*/
 /* font-family: 'Exo 2', sans-serif;
 font-family: 'Space Grotesk', sans-serif;  */
-main {padding-left: 7vw; padding-right: 7vw;}
+/* main {padding-left: 7vw; padding-right: 7vw;}
 
 h2{font-family: 'Space Grotesk', sans-serif; font-size: 2.5rem;}
 
@@ -38,7 +54,7 @@ p{font-size: 1rem;font-family: 'Exo 2', sans-serif}
 span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
 
 /* Primera seccion */
-.section-1{margin-top:5; margin-bottom:2.5vw;
+/* .section-1{margin-top:5; margin-bottom:2.5vw;
     background-color: #5ca14b1f; height: 45vw;
     display: flex; flex-direction: row; justify-content: space-evenly;align-items: center;}
     
@@ -46,14 +62,14 @@ span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
     
     .cerebro{width: 30vw;}
 /* Segunda seccion */
-.section-2{margin-top: 2.5vw; margin-bottom: 2.5vw;
+/* .section-2{margin-top: 2.5vw; margin-bottom: 2.5vw;
     display: flex; flex-direction: row; justify-content: space-evenly;align-items: center;}
 
     .red{height: 30vw;}
 
-    .div-2{width: 30vw;}
+    .div-2{width: 30vw;} */ 
 
-/* Tercera seccion */
+/* Tercera seccion
 .section-3-div{margin-top:75px;
     display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap:50px;}
 
@@ -90,7 +106,7 @@ span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
                     .diario{height: 180px;}
 
 /* Cuarta seccion */
-.section-4 {margin-top: 30px; padding: 30px;}
+/* .section-4 {margin-top: 30px; padding: 30px;}
 
     .section-4-title {display: flex; flex-direction: row; justify-content: center;}
     .section-4-body {margin: 30px;
@@ -98,10 +114,10 @@ span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
         .div-pepe4{width:1050px;}
             .pepe4{font-size: 1.7rem;}
                 .link-eventos {color: blue; text-decoration: underline blue;}
-        iframe {height: 450px;;width: 450px;}
+        iframe {height: 450px;;width: 450px;} */ 
 
 
-/* Footer */
+/* Footer
 footer{background-color: black; color: white; height: 270px;
 display: flex; flex-direction: row;justify-content:space-evenly; align-items: center;}
 
@@ -109,24 +125,24 @@ footer div h3 {font-size: 1.5rem;}
 footer div ul li a {color: white; font-family:'Exo 2', sans-serif;} 
 footer div p a {color: white}
 
-footer div {padding: 10px;}
-
+footer div {padding: 10px;} */
+/* 
 .footer1 {width: 150px;height: 200px;border-right: white solid 3px; padding-right: 60px;}
 footer div ul li div a img {width: 40px; height: 40px;}
-footer div ul li div a {display: flex; flex-direction: row; align-items: center; gap: 10px;}
+footer div ul li div a {display: flex; flex-direction: row; align-items: center; gap: 10px;} */
 
-.footer2 {width: 150px; height: 200px;border-right: white solid 3px;padding-right: 50px;
+/* .footer2 {width: 150px; height: 200px;border-right: white solid 3px;padding-right: 50px;
 display: flex; flex-direction: column; justify-content: space-between; align-items: start;}
-    footer .footer2 ul {height: 145px;display: flex; flex-direction: column; justify-content: space-between;}
+    footer .footer2 ul {height: 145px;display: flex; flex-direction: column; justify-content: space-between;} */
 
-.footer3 {width: 800px;height: 200px; border-right: white solid 3px;padding-right: 50px; 
+/* .footer3 {width: 800px;height: 200px; border-right: white solid 3px;padding-right: 50px; 
 display: flex; flex-direction: column; align-items: flex-start; gap:20px;}
     .footer3-h3 {font-size: 2rem;}
     footer .footer3 p {font-size: 1.5rem;}
-    footer .footer3 p a {color: blue;text-decoration: underline blue;}
+    footer .footer3 p a {color: blue;text-decoration: underline blue;} */
 
-.footer4 {width: 300px;height: 200px;
+/* .footer4 {width: 300px;height: 200px;
 display:flex; flex-direction: column; justify-content: space-between;align-items: center;}
     .footer4-img {border: gray solid 2px; height: 140px; width: 140px;}
-    .footer4 span {width: 250px; text-align: center;}
+    .footer4 span {width: 250px; text-align: center;} */ 
 
