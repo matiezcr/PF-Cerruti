@@ -1,0 +1,132 @@
+/* Header INICIO */
+/* font-family: 'Bruno Ace', cursive;*/
+
+*{margin:0; padding:0;}
+ul,li {list-style:none;}
+a{text-decoration:none; color:black;}
+
+.inicio { padding:10px;
+background-color:#79e983cc ; border:black solid 1px; 
+display:flex ; flex-direction: row ; justify-content:space-between ;align-items:center;}
+
+    .inicio-izquierdo{display:flex;flex-direction:row; align-items: center;gap:15px }
+
+    .logo-h{height: 30px;}
+    h1{font-family: 'Bruno Ace', cursive; font-size:1.2rem;}
+
+nav{background-color:#43ce4ab9; padding: 6px; border: black solid 1px;}
+    .nav-list {font-size: 1rem; font-family: 'Bruno Ace', cursive;
+    display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}
+
+
+/*Main INICIO*/
+/* font-family: 'Exo 2', sans-serif;
+font-family: 'Space Grotesk', sans-serif;  */
+main {padding-left: 7vw; padding-right: 7vw;}
+
+h2{font-family: 'Space Grotesk', sans-serif; font-size: 2.5rem;}
+
+h3{font-family: 'Space Grotesk', sans-serif; font-size: 2rem;
+    display: flex; flex-direction: row; justify-content: center;}
+
+h4{font-family: 'Exo 2', sans-serif; font-size:1.5rem;}
+
+p{font-size: 1rem;font-family: 'Exo 2', sans-serif}
+
+.pepe {font-size: 1.7rem;}
+
+span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
+
+/* Primera seccion */
+.section-1{margin-top:5; margin-bottom:2.5vw;
+    background-color: #5ca14b1f; height: 45vw;
+    display: flex; flex-direction: row; justify-content: space-evenly;align-items: center;}
+    
+    .div-1{width: 30vw;}
+    
+    .cerebro{width: 30vw;}
+/* Segunda seccion */
+.section-2{margin-top: 2.5vw; margin-bottom: 2.5vw;
+    display: flex; flex-direction: row; justify-content: space-evenly;align-items: center;}
+
+    .red{height: 30vw;}
+
+    .div-2{width: 30vw;}
+
+/* Tercera seccion */
+.section-3-div{margin-top:75px;
+    display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap:50px;}
+
+    .div-h2-1{display: flex; flex-direction: row; justify-content: center;}
+
+        article {background-color: #5ca14b1f; margin-top:30px; border: gray solid 1px;  
+            display: flex; flex-direction: row; align-items: center; gap:3vw; }
+        .div-padding {padding-left: 2vw; padding-top: 2vw; padding-bottom: 2vw;}
+                
+            .tierra {height:210px; }
+
+            .holocausto {height: 210px;}
+
+            .pi{height:210px;}
+
+            .ia{height: 210px;}
+
+        .segundo-bloque {height:900px ;
+        display: flex; flex-direction: column; justify-content:space-between; align-items: center;}
+
+            .div-ultimos-articulos {padding:20px;height: 650px; width: 550px;
+            display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
+                
+                .div-ultimos-articulos2 {height:525px;width: 525px;padding: 10px; border: gray solid 1px; background-color: #5ca14b1f;
+                display: flex;flex-direction: column; justify-content:space-evenly;align-items: center;}
+                .div-ultimos-articulos-img {height:470px ; width: 470px; border: gray solid 1px; background-color: white; 
+                display: flex; flex-direction: row; justify-content: center; align-items: center;}    
+        
+            .div-nuestros-articulos {height:300px;width:525px;padding:10px; border:#38812673 solid 3px;background-color: #5ca14b1f;
+            display: flex; flex-direction: column;}
+                .nuestros-articulos-title{font-size: 3.5rem;}
+                .nuestros-articulos-body {display: flex; flex-direction: row; justify-content: space-between; align-items: center;gap:7px}
+                    .nuestros-articulos-body2 {font-size:1.5rem;}
+                    .diario{height: 180px;}
+
+/* Cuarta seccion */
+.section-4 {margin-top: 30px; padding: 30px;}
+
+    .section-4-title {display: flex; flex-direction: row; justify-content: center;}
+    .section-4-body {margin: 30px;
+    display: flex; flex-direction: row; justify-content: space-between;align-items: center; gap:20px}
+        .div-pepe4{width:1050px;}
+            .pepe4{font-size: 1.7rem;}
+                .link-eventos {color: blue; text-decoration: underline blue;}
+        iframe {height: 450px;;width: 450px;}
+
+
+/* Footer */
+footer{background-color: black; color: white; height: 270px;
+display: flex; flex-direction: row;justify-content:space-evenly; align-items: center;}
+
+footer div h3 {font-size: 1.5rem;} 
+footer div ul li a {color: white; font-family:'Exo 2', sans-serif;} 
+footer div p a {color: white}
+
+footer div {padding: 10px;}
+
+.footer1 {width: 150px;height: 200px;border-right: white solid 3px; padding-right: 60px;}
+footer div ul li div a img {width: 40px; height: 40px;}
+footer div ul li div a {display: flex; flex-direction: row; align-items: center; gap: 10px;}
+
+.footer2 {width: 150px; height: 200px;border-right: white solid 3px;padding-right: 50px;
+display: flex; flex-direction: column; justify-content: space-between; align-items: start;}
+    footer .footer2 ul {height: 145px;display: flex; flex-direction: column; justify-content: space-between;}
+
+.footer3 {width: 800px;height: 200px; border-right: white solid 3px;padding-right: 50px; 
+display: flex; flex-direction: column; align-items: flex-start; gap:20px;}
+    .footer3-h3 {font-size: 2rem;}
+    footer .footer3 p {font-size: 1.5rem;}
+    footer .footer3 p a {color: blue;text-decoration: underline blue;}
+
+.footer4 {width: 300px;height: 200px;
+display:flex; flex-direction: column; justify-content: space-between;align-items: center;}
+    .footer4-img {border: gray solid 2px; height: 140px; width: 140px;}
+    .footer4 span {width: 250px; text-align: center;}
+
