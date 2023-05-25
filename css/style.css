@@ -4,14 +4,15 @@
 *{margin:0; padding:0;}
 ul,li {list-style:none;}
 a{text-decoration:none; color:black;}
+i {color: black;}
 
-header {position: fixed; width: 100%;}
+header {position: fixed; width: 100%; z-index: 2;}
 
 .inicio { padding:10px;
 background-color:#79e982 ; border:black solid 1px; 
 display:flex ; flex-direction: row ; justify-content:space-between ;align-items:center;}
 
-    .inicio-izquierdo{display:flex;flex-direction:row; align-items: center;gap:15px }
+    .inicio-izquierdo{display: flex; flex-direction: row;justify-content: center;align-items: center; gap:15px}
     .inicio-derecho{display:flex;flex-direction:row; align-items: center;gap:15px }
 
     .logo-h{height: 30px;}
@@ -45,16 +46,16 @@ main {padding: 5vw;}
 
 h2{font-family: 'Space Grotesk', sans-serif; font-size: 1.3rem;}
 
-h3{font-family: 'Space Grotesk', sans-serif; font-size: 0.7rem;
+h3{font-family: 'Space Grotesk', sans-serif; font-size: 1rem;
     display: flex; flex-direction: row; justify-content: center;}
 
-h4{font-family: 'Exo 2', sans-serif; font-size:1.5rem;}
+h4{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
 
-p{font-size: 1rem;font-family: 'Exo 2', sans-serif}
+p{font-size: 0.8rem;font-family: 'Exo 2', sans-serif}
 
 .div-p {font-size: 1rem;}
 
-span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}
+span{font-family: 'Exo 2', sans-serif; font-size:0.9rem;}
 
 @media (min-width:1024px){
 main {padding: 3vw;}
@@ -106,41 +107,169 @@ span{font-family: 'Exo 2', sans-serif; font-size:1.1rem;}}
 
 }
 
-/* Tercera seccion
-.section-3-div{margin-top:75px;
-    display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap:50px;}
+/* Tercera seccion */
+.section-3-div-1{text-align: center;}
 
-    .div-h2-1{display: flex; flex-direction: row; justify-content: center;}
+    .section-3-div-2{display: flex; flex-direction: column; justify-content: center; align-items: center;
+    margin-top: 2vw;}
 
-        article {background-color: #5ca14b1f; margin-top:30px; border: gray solid 1px;  
-            display: flex; flex-direction: row; align-items: center; gap:3vw; }
-        .div-padding {padding-left: 2vw; padding-top: 2vw; padding-bottom: 2vw;}
+        article {background-color: #5ca14b1f; margin-top:30px; border: gray solid 0.5px; width: 85vw; 
+        display: flex; flex-direction: column; justify-content: space-between;align-items: center; gap:3vw; }
+            .div-padding {padding:3vw; text-align: center; display: flex;flex-direction: column; gap: 1.5vw;}
                 
-            .tierra {height:210px; }
+                .tierra{width: 85vw;}
 
-            .holocausto {height: 210px;}
+                .holocausto {width: 85vw;}
 
-            .pi{height:210px;}
+                .pi{width: 85vw;}
 
-            .ia{height: 210px;}
+                .ia{width: 85vw;}
 
-        .segundo-bloque {height:900px ;
-        display: flex; flex-direction: column; justify-content:space-between; align-items: center;}
+.section-3-div-3 {margin-top: 7vw; display: flex; flex-direction: column; gap: 45px;} 
 
-            .div-ultimos-articulos {padding:20px;height: 650px; width: 550px;
-            display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
+   .div-3-div-1 {display: flex; flex-direction: column; align-items: center; gap: 3vw; margin-top: 35px;}
+    
+   .div-ultimos_articulos{background-color: #5ca14b1f;display: flex;flex-direction: column;justify-content: space-around;align-items: center;text-align: center; width: 80vw; height:80vw; padding: 4vw ;
+                            border: gray 1px solid;}
+   @media (max-width:487px){.div-ultimos_articulos{height: 95vw;}}
+        .div-ultimos-articulos__carrusel{height: 75vw; width: 75vw; display: flex; justify-content: center;}
+            .div-ultimos-articulos__carrusel a div {height: 75vw; width: 75vw}
+
+                .carrusel__reciclar {display: flex; flex-direction: column; justify-content: start; text-align: start;
+                    padding-top: 3vw; padding-left: 3vw; padding-right:2vw;
+                    background-image: url(../pages/articulos/ciencias-facticas/ciencias-naturales/ciencias-ambientales/img-articulos/art-reciclar-mitos.jpg);background-position: center; background-size: cover;}
+
+                .carrusel__internet {color:white; 
+                    display: flex; flex-direction: column; justify-content: end; align-items: start; text-align: start;
+                    padding-bottom: 3vw; padding-left: 3vw; padding-right:2vw;
+                    background-image: url(../pages/articulos/ciencias-formales/ciencias-de-la-computacion/img-articulos/art-navegacion-segura.jpg); background-position: center; background-size: cover;}
+
+                .carrusel__serpiente {display: flex; flex-direction: column; justify-content: start; text-align: start;
+                    padding-top: 3vw; padding-left: 3vw; padding-right:2vw;
+                    background-image: url(../pages/articulos/ciencias-facticas/ciencias-naturales/ciencias-biologicas/img-articulos/art-serpiente-venenosa.jpg); background-position:left; background-size: cover;}
+
+                .carrusel__contaminacion {color: white;
+                    display: flex; flex-direction: column; justify-content: start; text-align: start;
+                    padding-top: 3vw; padding-left: 3vw; padding-right:2vw;
+                    background-image: url(../pages/articulos/ciencias-facticas/ciencias-naturales/ciencias-ambientales/img-articulos/art-contaminacion-de-la-atmosfera.jpg); background-position: right; background-size:cover;}
+
+                .carrusel__web {color: white;
+                    display: flex; flex-direction: column; justify-content: end; text-align: start;
+                    padding-bottom: 3vw; padding-left: 3vw; padding-right:2vw;
+                    background-image: url(../pages/articulos/ciencias-formales/ciencias-de-la-computacion/img-articulos/art-deep-web-y-dark-web.jpg); background-position: right; background-size:cover;}
                 
-                .div-ultimos-articulos2 {height:525px;width: 525px;padding: 10px; border: gray solid 1px; background-color: #5ca14b1f;
-                display: flex;flex-direction: column; justify-content:space-evenly;align-items: center;}
-                .div-ultimos-articulos-img {height:470px ; width: 470px; border: gray solid 1px; background-color: white; 
-                display: flex; flex-direction: row; justify-content: center; align-items: center;}    
+                    .slideshow-container {
+                        position: relative;
+                        z-index: 1;
+                      }
+                      
+                      .mySlides {
+                        display: none;
+                      }
+                      
         
-            .div-nuestros-articulos {height:300px;width:525px;padding:10px; border:#38812673 solid 3px;background-color: #5ca14b1f;
+                      .prev, .next {
+                        cursor: pointer;
+                        position: absolute;
+                        top: 50%;
+                        width: auto;
+                        margin-top: -22px;
+                        padding: 16px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        transition: 0.6s ease;
+                        border-radius: 0 3px 3px 0;
+                        user-select: none;
+                      }
+                      
+        
+                      .prev:hover, .next:hover {
+                        background-color: rgba(0,0,0,0.8);
+                      }
+
+                      .prev{position: absolute; left:0;}
+                      .next{position: absolute; right: 0;}
+                      
+                      .fade {
+                        animation-name: fade;
+                        animation-duration: 1.5s;
+                      }
+                      
+                      @keyframes fade {
+                        from {opacity: .4}
+                        to {opacity: 1}}
+
+        
+            .div-nuestros-articulos {border:#38812673 solid 3px;background-color: #5ca14b1f;
             display: flex; flex-direction: column;}
-                .nuestros-articulos-title{font-size: 3.5rem;}
-                .nuestros-articulos-body {display: flex; flex-direction: row; justify-content: space-between; align-items: center;gap:7px}
-                    .nuestros-articulos-body2 {font-size:1.5rem;}
-                    .diario{height: 180px;}
+                .nuestros-articulos-title{font-size: 1.5rem; padding-top: 4vw;}
+                .nuestros-articulos-body {display: flex; flex-direction: row; justify-content: space-between; align-items: center;gap:7px; padding: 2vw;}
+                    .nuestros-articulos-body2 {font-size:0.8rem;}
+                    .diario{width: 30vw;}
+            @media(min-width:482px) {.nuestros-articulos-body2 {font-size:1.2rem;}}
+            @media(min-width:574px) {.nuestros-articulos-title{font-size: 2.2rem;}
+            .nuestros-articulos-body2 {font-size:1.4rem;}}
+            @media(min-width:665px) {.nuestros-articulos-title{font-size: 3rem;}
+            .nuestros-articulos-body2 {font-size:1.6rem;}}
+            
+
+@media (min-width:1024px) {
+    
+    .section-3-div-2{display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 2vw; gap: 2vw;} 
+        .div-article {display: flex; flex-direction: row; align-items: center;gap:2vw}
+        article {background-color: #5ca14b1f; margin-top:30px; border: gray solid 0.5px; width: 25vw;height: 37vw; 
+            display: flex;flex-direction: column-reverse;justify-content: start;align-items: center;gap:0;;} 
+            .div-padding {text-align: start; display: flex; flex-direction: column;gap:0.5vw ;padding: 1vw;}
+            .div-padding h4 {font-size: 1rem;}    
+            .div-padding span {font-size: 0.9rem;}  
+            .div-padding p {font-size: 0.8;}  
+                .tierra{width: 25vw;}
+
+                .holocausto {width: 25vw;}
+
+                .pi{width:25vw;}
+
+                .ia{width: 25vw;}
+
+        .section-3-div-3 {margin-top: 1vw; display: flex; flex-direction: column;gap: 20px;} 
+        .div-3-div-1 {display: flex; flex-direction: column; align-items: center; gap: 3vw;margin-top: 0;}
+                 
+                .div-ultimos_articulos{background-color: #5ca14b1f;display: flex;flex-direction: column;justify-content: space-evenly;align-items: center;text-align: center; width: 32vw; height:38vw;padding: 0;padding: 1vw;}
+                     .div-ultimos-articulos__carrusel{height: 30vw; width: 30vw;}
+                     .mySlides a div {width: 28vw;height: 28vw; padding: 1vw;}
+                     
+                .prev{position: absolute; right: 25.9vw;}
+                .next {position: absolute; left: 25.9vw;}
+                .div-nuestros-articulos {width: 30vw;height: 17vw;}
+
+            .div-nuestros-articulos {width: 34vw; height: auto;border:#38812673 solid 3px;background-color: #5ca14b1f; display: flex; flex-direction: column;}
+                .nuestros-articulos-title{font-size: 1.5rem; padding-top: 0;padding-top: 1vw;}
+                .nuestros-articulos-body {display: flex; flex-direction: row; justify-content: space-between; align-items: center;gap:7px; padding: 2vw;}
+                    .nuestros-articulos-body2 {font-size:1rem;}
+                    .diario{width: 10vw;}
+            
+}
+@media (min-width:1310px) {.nuestros-articulos-title{font-size: 2.5rem;}
+            .nuestros-articulos-body2 {font-size:1.5rem;}}
+
+@media(min-width:1200px) {
+    .section-3-div-2{display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 2vw; gap: 2vw;} 
+        .div-article {display: flex; flex-direction: column; align-items: center;gap:2vw}
+        article {background-color: #5ca14b1f; margin-top:30px; border: gray solid 0.5px; width: 55vw;height: 0;height: auto; 
+            display: flex;flex-direction: row;justify-content: start;align-items: center;gap:0;;} 
+            .div-padding {text-align: start; display: flex; flex-direction: column;gap:0.5vw ;padding: 1vw;}
+            .div-padding h4 {font-size: 1rem;}    
+            .div-padding span {font-size: 0.9rem;}  
+            .div-padding p {font-size: 0.8;}  
+                .tierra{width: 25vw;}
+
+                .holocausto {width: 25vw;}
+
+                .pi{width:25vw;}
+
+                .ia{width: 25vw;}
+}
 
 /* Cuarta seccion */
 /* .section-4 {margin-top: 30px; padding: 30px;}
