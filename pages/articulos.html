@@ -5,37 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Exo+2:ital,wght@0,100;0,300;0,400;1,100&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Artículos | Hablemos de Ciencia</title>
 </head>
 <body>
     <header>
         <div class="inicio">
-            <h1>Artículos</h1>
             <div class="inicio-izquierdo">
                 <img class="logo-h" src="../img/logo-h(c).png" alt="Logo del sitio">
-                <h2 id="articulos-1" class="hc">Hablemos de Ciencia</h2>
+                <h1 id="inicio-1" class="hc">Hablemos de Ciencia</h1>
             </div>
-            <div>
-                <img class="logo-h" src="../img/logo-h(c).png" alt="Logo del sitio">
+            <div class="inicio-derecho">
+                <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+                <img class="logo-h logo-h2" src="../img/logo-h(c).png" alt="Logo del sitio">
             </div>
         </div>
-        <nav>
+       
+        <nav class="nav-visible" id="nav">
             <ul class="nav-list">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-circle"></i></button>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/cienciahoy.html">CienciaHOY</a></li>
-                <li><a href="../pages/articulos.html">Artículos</a></li>
+                <li><a href="../pages/articulos.html"><strong><u>Artículos</u></strong></a></li>
                 <li><a href="../pages/eventos.html">Eventos</a></li>
                 <li><a href="../pages/quienessomos.html">¿Quiénes somos?</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="articulos__section">
         <h2>Artículos</h2>
+        <div>
             <div>
             <h3>Ciencias Formales</h3>
                 <ul>
-                    <li>
+                    <li class="ciencias-mat">
                         <a href="../pages/articulos/ciencias-formales/cs-matem.html">
                             <h4>Ciencias Matemáticas</h4>
                             <div>
@@ -43,7 +51,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="ciencias-cp">
                         <a href="../pages/articulos/ciencias-formales/cs-de-la-comp.html">
                             <h4>Ciencias de la Computación</h4>
                             <div>
@@ -56,7 +64,7 @@
             <div> 
             <h3>Ciencias Fácticas</h3>  
                 <ul>
-                    <li>
+                    <li class="ciencias-nat">
                         <a href="../pages/articulos/ciencias-facticas/cs-nat.html">
                             <h4>Ciencias Naturales</h4>
                             <div>
@@ -64,7 +72,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="ciencias-soc">
                         <a href="../pages/articulos/ciencias-facticas/cs-soc.html">
                             <h4>Ciencias Sociales</h4>
                             <div>
@@ -73,7 +81,8 @@
                         </a>
                     </li>
                 </ul>
-            </div>   
+            </div>
+        </div>   
         </section>
     </main>
     <footer>
@@ -122,9 +131,10 @@
             <p>Acá en Hablemos de Ciencia te preparamos para que puedas escribir artículos de ciencias y puedas formar parte de este comunidad hermosa. Pero primero enterate <a href="../pages/quienessomos.html">quiénes somos y qué hacemos.</a></p>
         </div>
         <div class="footer4">
-            <img class="footer4-img" src="" alt="Qr para escanear desde el celu">
+            <img class="footer4-img" src="../img/qr-proyecto.png" alt="Qr para escanear desde el celu">
             <span>Abrí nuestro sitio web al alcance de tu mano</span>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>
