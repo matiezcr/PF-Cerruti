@@ -32,5 +32,9 @@ display:flex ; flex-direction: row ; justify-content:space-between;align-items:c
             .nav__list li a {color:#ffffff}
         
     .logo{height:45px}}
+
+    @media(max-width:347px){header{.header__title--left{span{font-family: 'Open Sans', sans-serif; font-size: 1rem}}}
+
+    }
                     
     .nav__list li:hover a {color: #45e052}
