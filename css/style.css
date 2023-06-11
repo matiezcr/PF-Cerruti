@@ -385,7 +385,7 @@ footer {
     transform: translate(0px, 0px);
   }
   30% {
-    background-color: #000000;
+    background-color: #524f4f;
   }
   50% {
     transform: translate(0px, 0px);
@@ -395,10 +395,10 @@ footer {
   }
   90% {
     transform: translate(0px, 0px);
-    background-color: #000000;
+    background-color: #524f4f;
   }
   95% {
-    background-color: #000000;
+    background-color: #524f4f;
   }
   100% {
     transform: translate(0px, -150px);
@@ -437,10 +437,10 @@ footer {
 
 @keyframes background-degraded {
   30% {
-    background-color: #000000;
+    background-color: #524f4f;
   }
   100% {
-    background-color: #000000;
+    background-color: #524f4f;
   }
 }
 .main {
@@ -455,15 +455,15 @@ footer {
   }
   .robot__speak {
     position: absolute;
-    top: 60px;
+    top: 70px;
   }
   .robot__speak--bubble {
     position: absolute;
-    top: 150px;
+    top: 160px;
   }
   .robot__speak--bubble1 {
     position: absolute;
-    top: 155px;
+    top: 165px;
   }
 }
 @media (min-width: 431px) {
@@ -592,6 +592,38 @@ footer {
     left: 200px;
   }
 }
+@keyframes transf-color {
+  0% {
+    color: black;
+  }
+  25% {
+    color: #524f4f;
+  }
+  50% {
+    color: #524f4f;
+  }
+  75% {
+    color: #524f4f;
+  }
+  90% {
+    color: #524f4f;
+  }
+  100% {
+    color: black;
+  }
+}
+.intro__title {
+  animation-name: transf-color;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+
+.intro__body {
+  animation-name: transf-color;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+
 main {
   padding: 20px;
   margin-top: 20px;
