@@ -2,7 +2,7 @@ h1{color:black;font-size: 0.1rem;}
 
 header{.header__title--left{span{font-family: 'Open Sans', sans-serif; font-size: 1.2rem;color:#ffffff}}}
 
-header{position: fixed;right: 0;left: 0;padding: 7px;
+header{position: fixed;right: 0;left: 0;top: 0;z-index: 2;;padding: 7px;
 border:black solid 1px; background-color: #000000;
 display:flex ; flex-direction: row ; justify-content:space-between;align-items:center;}
 
