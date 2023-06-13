@@ -1376,5 +1376,222 @@ span {
     font-size: 1.5rem;
   }
 }
+.section__quienes-somos {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(../../img/bkgr-impar.png);
+  background-size: 600px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px black;
+}
+.section__quienes-somos h2 {
+  font-size: 2rem;
+}
+.section__quienes-somos p {
+  font-size: 1.1rem;
+}
+
+.section__que-buscamos {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px black;
+  background-image: url(../../img/bkgr-par.png);
+  background-size: 400px;
+}
+.section__que-buscamos h3 {
+  font-size: 2rem;
+}
+.section__que-buscamos p {
+  font-size: 1.1rem;
+}
+
+.section__nosotros {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(../../img/bkgr-impar.png);
+  background-size: 600px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px black;
+}
+.section__nosotros h4 {
+  font-size: 1.5rem;
+}
+.section__nosotros p {
+  font-size: 1rem;
+}
+
+.nosotros__nuestra-vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros__nuestra-vision div svg {
+  width: 35vw;
+  height: 35vw;
+}
+
+.nosotros__nuestra-mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.nosotros__nuestra-mision div svg {
+  width: 35vw;
+  height: 35vw;
+}
+
+.nosotros__nuestros-valores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros__nuestros-valores div svg {
+  width: 35vw;
+  height: 35vw;
+}
+
+.section__incorporacion {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px black;
+  background-image: url(../../img/bkgr-par.png);
+  background-size: 400px;
+}
+.section__incorporacion h2 {
+  font-size: 2rem;
+}
+.section__incorporacion p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 876px) {
+  .section__quienes-somos {
+    margin-top: 70px;
+    text-align: start;
+  }
+  .section__quienes-somos p {
+    font-size: 1.5rem;
+  }
+  .section__que-buscamos {
+    margin-top: 70px;
+    text-align: end;
+    align-items: end;
+  }
+  .section__que-buscamos p {
+    font-size: 1.5rem;
+  }
+  .section__nosotros {
+    margin-top: 70px;
+  }
+  .section__nosotros h4 {
+    font-size: 1.9rem;
+  }
+  .section__nosotros p {
+    font-size: 1.4rem;
+  }
+  .nosotros__nuestra-vision {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+  }
+  .nosotros__nuestra-vision div {
+    padding: 20px;
+  }
+  .nosotros__nuestra-vision div svg {
+    width: 35vw;
+    height: 35vw;
+  }
+  .nosotros__nuestra-mision {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: end;
+    gap: 20px;
+  }
+  .nosotros__nuestra-mision div {
+    padding: 20px;
+  }
+  .nosotros__nuestra-mision div svg {
+    width: 35vw;
+    height: 35vw;
+  }
+  .nosotros__nuestros-valores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+  }
+  .nosotros__nuestros-valores div {
+    padding: 20px;
+  }
+  .nosotros__nuestros-valores div svg {
+    width: 35vw;
+    height: 35vw;
+  }
+  .section__incorporacion {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .section__incorporacion h2 {
+    font-size: 2rem;
+  }
+  .section__incorporacion p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .section__quienes-somos h2 {
+    font-size: 2.5rem;
+  }
+  .section__quienes-somos p {
+    font-size: 2rem;
+  }
+  .section__que-buscamos h3 {
+    font-size: 2.5rem;
+  }
+  .section__que-buscamos p {
+    font-size: 2rem;
+  }
+  .section__nosotros {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .section__nosotros h4 {
+    font-size: 2.3rem;
+  }
+  .section__nosotros p {
+    font-size: 1.8rem;
+  }
+  .section__nosotros div div svg {
+    width: 18vw;
+    height: 18vw;
+  }
+  .section__incorporacion h2 {
+    font-size: 2.5rem;
+  }
+  .section__incorporacion p {
+    font-size: 2rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
