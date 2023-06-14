@@ -937,7 +937,7 @@ span {
 .latest-articles__item {
   height: 75vw;
   width: 75vw;
-  background-image: url(../pages/articulos/ciencias-facticas/ciencias-naturales/ciencias-ambientales/img-articulos/art-reciclar-mitos.jpg);
+  background-image: url(../../img/articulos/art-reciclar-mitos.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -946,7 +946,7 @@ span {
   height: 75vw;
   width: 75vw;
   color: white;
-  background-image: url(../pages/articulos/ciencias-formales/ciencias-de-la-computacion/img-articulos/art-navegacion-segura.jpg);
+  background-image: url(../../img/articulos/art-navegacion-segura.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -954,7 +954,7 @@ span {
 .latest-articles__item3 {
   height: 75vw;
   width: 75vw;
-  background-image: url(../pages/articulos/ciencias-facticas/ciencias-naturales/ciencias-biologicas/img-articulos/art-serpiente-venenosa.jpg);
+  background-image: url(../../img/articulos/art-serpiente-venenosa.jpg);
   background-position: left;
   background-size: cover;
 }
@@ -963,7 +963,7 @@ span {
   height: 75vw;
   width: 75vw;
   color: white;
-  background-image: url(../pages/articulos/ciencias-facticas/ciencias-naturales/ciencias-ambientales/img-articulos/art-contaminacion-de-la-atmosfera.jpg);
+  background-image: url(../../img/articulos/art-contaminacion-de-la-atmosfera.jpg);
   background-position: right;
   background-size: cover;
 }
@@ -972,7 +972,7 @@ span {
   height: 75vw;
   width: 75vw;
   color: white;
-  background-image: url(../pages/articulos/ciencias-formales/ciencias-de-la-computacion/img-articulos/art-deep-web-y-dark-web.jpg);
+  background-image: url(../../img/articulos/art-deep-web-y-dark-web.jpg);
   background-position: right;
   background-size: cover;
 }
@@ -1526,6 +1526,152 @@ span {
   }
   .section__articles aside div div a article img {
     width: 20vw;
+  }
+}
+.articulos__section {
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+}
+.articulos__section .articles__separation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vw;
+}
+.articulos__section .articles__separation .separation__cs-formales {
+  margin-top: 5vw;
+}
+.articulos__section .articles__separation .separation__cs-formales ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.articulos__section .articles__separation .separation__cs-facticas ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.articulos__section div ul li {
+  width: 60vw;
+  height: 60vw;
+  padding: 2vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.articulos__section div ul li:hover {
+  border: 2px solid #45e052;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #45e052;
+}
+
+.ciencias-mat {
+  background-image: url(../img/articulos/ciencias-mat.jpg);
+  background-size: cover;
+}
+
+.ciencias-cp {
+  background-image: url(../img/articulos/ciencias-cp.jpg);
+  background-size: cover;
+}
+
+.ciencias-nat {
+  background-image: url(../img/articulos/ciencias-nat.jpg);
+  background-size: cover;
+}
+
+.ciencias-soc {
+  background-image: url(../img/articulos/ciencias-soc.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 876px) {
+  .articulos__section {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .articulos__section h2 {
+    font-size: 2.5rem;
+  }
+  .articulos__section h3 {
+    font-size: 2rem;
+  }
+  .articulos__section .articles__separation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+  }
+  .articulos__section .articles__separation .separation__cs-formales {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .articulos__section .articles__separation .separation__cs-formales ul {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+  }
+  .articulos__section .articles__separation .separation__cs-facticas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .articulos__section .articles__separation .separation__cs-facticas ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .articulos__section div ul li {
+    width: 30vw;
+    height: 30vw;
+  }
+  .articulos__section div ul li h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .articulos__section {
+    margin-top: 0;
+    margin-top: 4vw;
+  }
+  .articulos__section div ul li {
+    width: 30vw;
+    height: 30vw;
+    padding: 2vw;
+  }
+  .articulos__section div ul {
+    gap: 5vw;
+  }
+}
+@media (min-width: 1400px) {
+  .articulos__section {
+    margin-top: 2vw;
+  }
+  .articulos__section .articles__separation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .articulos__section .articles__separation .separation__cs-formales {
+    margin-top: 0;
+  }
+  .articulos__section .articles__separation .separation__cs-facticas {
+    margin-right: 1vw;
+  }
+  .articulos__section .articles__separation ul {
+    gap: 2vw;
+  }
+  .articulos__section .articles__separation ul li {
+    width: 17vw;
+    height: 17vw;
   }
 }
 .section__quienes-somos {
