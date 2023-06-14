@@ -1,4 +1,4 @@
-.articulos__section{margin-top: 40px; align-items: center; text-align: center;.articles__separation{display: flex;flex-direction: column; align-items: center; gap: 10vw;.separation__cs-formales{margin-top:5vw;ul{display: flex;flex-direction: column;gap:14px}};.separation__cs-facticas{ul{display: flex;flex-direction: column;gap: 30px;}}}}
+.articulos__section{margin-top: 40px; align-items: center; text-align: center;.articles__separation{display: flex;flex-direction: column; align-items: center; gap: 10vw;.separation__cs-formales{margin-top:5vw;ul{display: flex;flex-direction: column;gap:30px}};.separation__cs-facticas{ul{display: flex;flex-direction: column;gap: 30px;}}}}
 .articulos__section div ul li {width: 60vw;height: 60vw; padding: 2vw; border: 2px solid $black; border-radius: 10px; box-shadow: 10px 10px 10px $black;}
 .articulos__section div ul li:hover {border: 2px solid $green; border-radius: 10px; box-shadow: 10px 10px 10px $green;}
 
@@ -9,7 +9,7 @@
 .ciencias-soc{background-image: url(../img/articulos/ciencias-soc.jpg);background-size: cover;}
 
 @media(min-width:876px){
-    .articulos__section{h2{font-size: 2.5rem};h3{font-size: 2rem};margin-top: 50px; align-items: center; text-align: center;.articles__separation{display: flex;flex-direction: column;justify-content: center ;align-items: center; gap: 10vw;.separation__cs-formales{margin-top:5vw; display: flex; flex-direction: column; gap: 20px;ul{display: flex;flex-direction: row;gap:14px}};.separation__cs-facticas{display: flex; flex-direction: column; gap: 20px;ul{display: flex;flex-direction: row;gap: 30px;}}}}
+    .articulos__section{h2{font-size: 2.5rem};h3{font-size: 2rem};margin-top: 50px; align-items: center; text-align: center;.articles__separation{display: flex;flex-direction: column;justify-content: center ;align-items: center; gap: 10vw;.separation__cs-formales{margin-top:5vw; display: flex; flex-direction: column; gap: 20px;ul{display: flex;flex-direction: row;gap:30px}};.separation__cs-facticas{display: flex; flex-direction: column; gap: 20px;ul{display: flex;flex-direction: row;gap: 30px;}}}}
 .articulos__section div ul li {width: 30vw;height: 30vw; h4{font-size: 1.5rem;}}
 }
 
