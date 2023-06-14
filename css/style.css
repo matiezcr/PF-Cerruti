@@ -1674,6 +1674,50 @@ span {
     height: 17vw;
   }
 }
+.eventos__intro {
+  margin-top: 30px;
+  text-align: center;
+}
+.eventos__intro h2 {
+  font-size: 1.8rem;
+}
+.eventos__intro p {
+  font-size: 1.1rem;
+}
+
+div svg {
+  width: 30vw;
+  height: 30vw;
+}
+
+.eventos__body {
+  text-align: center;
+}
+.eventos__body a {
+  color: blue;
+  text-decoration: underline;
+}
+.eventos__body h3 {
+  font-size: 1.8rem;
+}
+.eventos__body p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 1024px) {
+  .eventos__intro h2 {
+    font-size: 2.5rem;
+  }
+  .eventos__intro p {
+    font-size: 2.1rem;
+  }
+  .eventos__body h3 {
+    font-size: 2.5rem;
+  }
+  .eventos__body p {
+    font-size: 2.1rem;
+  }
+}
 .section__quienes-somos {
   margin-top: 30px;
   padding: 20px;
