@@ -118,11 +118,11 @@ span{font-size:1.1rem;}}
 
 .latest-articles__carousel{height: 75vw; width: 75vw; display: flex; justify-content: center; border: $black 1px solid;}
 
-    .latest-articles__item {height: 75vw; width: 75vw; background-image: url(../../img/articulos/art-reciclar-mitos.jpg);background-position: center; background-size: cover;}
-    .latest-articles__item2 {height: 75vw; width: 75vw; color:white; background-image: url(../../img/articulos/art-navegacion-segura.jpg); background-position: center; background-size: cover;}
-    .latest-articles__item3 {height: 75vw; width: 75vw; background-image: url(../../img/articulos/art-serpiente-venenosa.jpg); background-position:left; background-size: cover;}
-    .latest-articles__item4 {height: 75vw; width: 75vw; color: white; background-image: url(../../img/articulos/art-contaminacion-de-la-atmosfera.jpg); background-position: right; background-size:cover;}
-    .latest-articles__item5 {height: 75vw; width: 75vw; color: white; background-image: url(../../img/articulos/art-deep-web-y-dark-web.jpg); background-position: right; background-size:cover;}
+    .latest-articles__item {height: 75vw; width: 75vw; background-image: url(../img/articulos/art-reciclar-mitos.jpg);background-position: center; background-size: cover;}
+    .latest-articles__item2 {height: 75vw; width: 75vw; color:white; background-image: url(../img/articulos/art-navegacion-segura.jpg); background-position: center; background-size: cover;}
+    .latest-articles__item3 {height: 75vw; width: 75vw; background-image: url(../img/articulos/art-serpiente-venenosa.jpg); background-position:left; background-size: cover;}
+    .latest-articles__item4 {height: 75vw; width: 75vw; color: white; background-image: url(../img/articulos/art-contaminacion-de-la-atmosfera.jpg); background-position: right; background-size:cover;}
+    .latest-articles__item5 {height: 75vw; width: 75vw; color: white; background-image: url(../img/articulos/art-deep-web-y-dark-web.jpg); background-position: right; background-size:cover;}
                 
     .item__text{position: absolute;top: 10px; left:10px;display:flex;flex-direction: column;justify-content: start;align-items: start; text-align:start;height: 70vw; width: 70vw;}
     .item__text2{position: absolute;bottom: 10px; left:10px;display: flex;flex-direction: column;justify-content: end; align-items: start; text-align: start;height: 70vw; width: 70vw;}

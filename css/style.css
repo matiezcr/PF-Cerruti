@@ -937,7 +937,7 @@ span {
 .latest-articles__item {
   height: 75vw;
   width: 75vw;
-  background-image: url(../../img/articulos/art-reciclar-mitos.jpg);
+  background-image: url(../img/articulos/art-reciclar-mitos.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -946,7 +946,7 @@ span {
   height: 75vw;
   width: 75vw;
   color: white;
-  background-image: url(../../img/articulos/art-navegacion-segura.jpg);
+  background-image: url(../img/articulos/art-navegacion-segura.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -954,7 +954,7 @@ span {
 .latest-articles__item3 {
   height: 75vw;
   width: 75vw;
-  background-image: url(../../img/articulos/art-serpiente-venenosa.jpg);
+  background-image: url(../img/articulos/art-serpiente-venenosa.jpg);
   background-position: left;
   background-size: cover;
 }
@@ -963,7 +963,7 @@ span {
   height: 75vw;
   width: 75vw;
   color: white;
-  background-image: url(../../img/articulos/art-contaminacion-de-la-atmosfera.jpg);
+  background-image: url(../img/articulos/art-contaminacion-de-la-atmosfera.jpg);
   background-position: right;
   background-size: cover;
 }
@@ -972,7 +972,7 @@ span {
   height: 75vw;
   width: 75vw;
   color: white;
-  background-image: url(../../img/articulos/art-deep-web-y-dark-web.jpg);
+  background-image: url(../img/articulos/art-deep-web-y-dark-web.jpg);
   background-position: right;
   background-size: cover;
 }
