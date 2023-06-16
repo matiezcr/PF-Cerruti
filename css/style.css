@@ -1725,7 +1725,7 @@ div svg {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-image: url(../../img/bkgr-impar.png);
+  background-image: url(../img/bkgr-impar.png);
   background-size: 600px;
   border-radius: 30px;
   box-shadow: 5px 5px 15px black;
@@ -1746,7 +1746,7 @@ div svg {
   gap: 20px;
   border-radius: 30px;
   box-shadow: 5px 5px 15px black;
-  background-image: url(../../img/bkgr-par.png);
+  background-image: url(../img/bkgr-par.png);
   background-size: 400px;
 }
 .section__que-buscamos h3 {
@@ -1763,7 +1763,7 @@ div svg {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-image: url(../../img/bkgr-impar.png);
+  background-image: url(../img/bkgr-impar.png);
   background-size: 600px;
   border-radius: 30px;
   box-shadow: 5px 5px 15px black;
@@ -1815,7 +1815,7 @@ div svg {
   gap: 20px;
   border-radius: 30px;
   box-shadow: 5px 5px 15px black;
-  background-image: url(../../img/bkgr-par.png);
+  background-image: url(../img/bkgr-par.png);
   background-size: 400px;
 }
 .section__incorporacion h2 {
