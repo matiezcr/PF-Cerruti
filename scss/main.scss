@@ -1,10 +1,12 @@
 @import "./base";
 @import "./components/header";
-@import"./components/footer";
-@import"./components/robot";
+@import "./components/footer";
+@import "./components/robot";
+@import "./components/filter-order";
 @import "./pages/index";
-@import"./pages/cienciahoy";
-@import"./pages/articulos";
-@import"./pages/eventos";
+@import "./pages/cienciahoy";
+@import "./pages/articulos";
+@import "./pages/eventos";
 @import "./pages/quienes-somos";
-@import "./pages/articulo-de-muestra"
+@import "./pages/articulo-de-muestra";
+@import "./pages/div-art"
