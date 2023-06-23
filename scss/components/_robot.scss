@@ -1,102 +1,405 @@
-@keyframes mov-robot{
-    0%{transform: translate(0px,-280px);}
-    25%{transform: scale(4) translate(0px,0px);}
-    50%{transform: scale(4) translate(0px,0px);}
-    75%{transform:  scale(4) translate(0px,0px);}
-    90%{transform:  scale(4) translate(0px,0px);}
-    100%{transform: translate(0px,-400px);}
+@keyframes mov-robot {
+    0% {
+        transform: translate(0px, -280px);
+    }
+
+    25% {
+        transform: scale(4) translate(0px, 0px);
+    }
+
+    50% {
+        transform: scale(4) translate(0px, 0px);
+    }
+
+    75% {
+        transform: scale(4) translate(0px, 0px);
+    }
+
+    90% {
+        transform: scale(4) translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, -400px);
+    }
 }
-.robot{position:absolute;top:250px;left:70px;width: 7%;animation: both;animation-name:mov-robot;animation-duration: 8s;animation-timing-function: linear;}
 
-@keyframes mov-speak{
-    0%{transform: translate(0px,-150px);}
-    25%{transform: translate(0px,0px);}
-    50%{transform: translate(0px,0px);}
-    75%{transform: translate(0px,0px);}
-    90%{transform: translate(0px,0px);}
-    100%{transform:translate(0px,-150px);}
+.robot {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    width: 7%;
+    animation: both;
+    animation-name: mov-robot;
+    animation-duration: 8s;
+    animation-timing-function: linear;
 }
-.robot__speak{width: 50vw;position: absolute; top:70px; left:120px;background-color: white; padding: 10px; border-radius: 20px;animation: both;animation-name: mov-speak;animation-duration: 8s;animation-timing-function: linear;
-span {font-size: 1rem;}}
 
-@keyframes mov-bubble{
-    0%{transform: translate(0px,-150px);}
-    25%{transform: translate(0px,0px);}
-    50%{transform: translate(0px,0px);}
-    75%{transform: translate(0px,0px);}
-    90%{transform: translate(0px,0px);}
-    100%{transform:translate(0px,-150px);}}
-@keyframes mov-bubble1{
-        0%{transform: translate(0px,-150px); background-color: #ffffff;}
-        25%{transform: translate(0px,0px);}
-        30%{background-color: #524f4f}
-        50%{transform: translate(0px,0px);}
-        75%{transform: translate(0px,0px);}
-        90%{transform: translate(0px,0px);background-color: #524f4f}
-        95%{background-color: #524f4f}
-        100%{transform:translate(0px,-150px)}}
+@keyframes mov-speak {
+    0% {
+        transform: translate(0px, -150px);
+    }
 
-.robot__speak--bubble {background-color: white; position: absolute; top: 180px; left: 120px; border-radius: 30px;width: 50px; height: 50px; animation: both;animation-name: mov-bubble;animation-duration: 8s;animation-timing-function: linear;}
-.robot__speak--bubble1{position: absolute; top: 185px; left: 100px; border-radius: 30px;width: 50px; height: 50px; animation: both;animation-name: mov-bubble1;animation-duration: 8s;animation-timing-function: linear;}
+    25% {
+        transform: translate(0px, 0px);
+    }
 
-.hidden {visibility: hidden;}
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, 0px);
+    }
+
+    90% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, -150px);
+    }
+}
+
+.robot__speak {
+    width: 50vw;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    animation: both;
+    animation-name: mov-speak;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+
+    span {
+        font-size: 1rem;
+    }
+}
+
+@keyframes mov-bubble {
+    0% {
+        transform: translate(0px, -150px);
+    }
+
+    25% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, 0px);
+    }
+
+    90% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, -150px);
+    }
+}
+
+@keyframes mov-bubble1 {
+    0% {
+        transform: translate(0px, -150px);
+        background-color: #ffffff;
+    }
+
+    25% {
+        transform: translate(0px, 0px);
+    }
+
+    30% {
+        background-color: #524f4f
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, 0px);
+    }
+
+    90% {
+        transform: translate(0px, 0px);
+        background-color: #524f4f
+    }
+
+    95% {
+        background-color: #524f4f
+    }
+
+    100% {
+        transform: translate(0px, -150px)
+    }
+}
+
+.robot__speak--bubble {
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    animation: both;
+    animation-name: mov-bubble;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+.robot__speak--bubble1 {
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    animation: both;
+    animation-name: mov-bubble1;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+.hidden {
+    visibility: hidden;
+}
 
 @keyframes background-degraded {
-    0%{}
-    30%{background-color: #524f4f}
-    100%{background-color: #524f4f}}
+    0% {}
 
+    30% {
+        background-color: #524f4f
+    }
 
-.main {animation-name:background-degraded; animation-duration: 8s;}
-
-@media (min-width:350px){.robot{position:absolute;top:230px}
-    .robot__speak{position: absolute; top: 70px;}
-    .robot__speak--bubble  {position: absolute; top: 160px;}
-    .robot__speak--bubble1{position: absolute; top: 165px;}
+    100% {
+        background-color: #524f4f
+    }
 }
 
-@media (min-width:431px){.robot{position:absolute;top:250px}
-    .robot__speak{position: absolute; top: 80px;}
+
+.main {
+    animation-name: background-degraded;
+    animation-duration: 8s;
 }
 
-@media (min-width:524px){.robot{position:absolute;top:250px; left:100px;}
-    .robot__speak{position: absolute; top: 80px; left:150px;}
-    .robot__speak--bubble  {position: absolute; top: 135px; left: 150px;}
-    .robot__speak--bubble1{position: absolute; top: 140px; left: 130px;}
+@media (min-width:350px) {
+    .robot {
+        position: absolute;
+        top: 230px
+    }
+
+    .robot__speak {
+        position: absolute;
+        top: 70px;
+    }
+
+    .robot__speak--bubble {
+        position: absolute;
+        top: 160px;
+    }
+
+    .robot__speak--bubble1 {
+        position: absolute;
+        top: 165px;
+    }
 }
 
-@media (min-width:600px){.robot{width: 5%;position:absolute;top:270px;}
-    .robot__speak{span {font-size: 1.3rem;}}
-    .robot__speak--bubble  {position: absolute; top: 175px; left: 150px;}
-    .robot__speak--bubble1{position: absolute; top: 180px; left: 130px;}}
+@media (min-width:431px) {
+    .robot {
+        position: absolute;
+        top: 250px
+    }
 
-@media (min-width:681px){.robot {position: absolute;left:100px}
-        .robot__speak--bubble {position: absolute; top: 150px; left: 180px; }
-        .robot__speak--bubble1{position: absolute; top: 150px; left: 160px;}}
+    .robot__speak {
+        position: absolute;
+        top: 80px;
+    }
+}
 
-@media (min-width:1032px){.robot__speak{ width:70vw; span {font-size: 1.8rem;}}}
+@media (min-width:524px) {
+    .robot {
+        position: absolute;
+        top: 250px;
+        left: 100px;
+    }
+
+    .robot__speak {
+        position: absolute;
+        top: 80px;
+        left: 150px;
+    }
+
+    .robot__speak--bubble {
+        position: absolute;
+        top: 135px;
+        left: 150px;
+    }
+
+    .robot__speak--bubble1 {
+        position: absolute;
+        top: 140px;
+        left: 130px;
+    }
+}
+
+@media (min-width:600px) {
+    .robot {
+        width: 5%;
+        position: absolute;
+        top: 270px;
+    }
+
+    .robot__speak {
+        span {
+            font-size: 1.3rem;
+        }
+    }
+
+    .robot__speak--bubble {
+        position: absolute;
+        top: 175px;
+        left: 150px;
+    }
+
+    .robot__speak--bubble1 {
+        position: absolute;
+        top: 180px;
+        left: 130px;
+    }
+}
+
+@media (min-width:681px) {
+    .robot {
+        position: absolute;
+        left: 100px
+    }
+
+    .robot__speak--bubble {
+        position: absolute;
+        top: 150px;
+        left: 180px;
+    }
+
+    .robot__speak--bubble1 {
+        position: absolute;
+        top: 150px;
+        left: 160px;
+    }
+}
+
+@media (min-width:1032px) {
+    .robot__speak {
+        width: 70vw;
+
+        span {
+            font-size: 1.8rem;
+        }
+    }
+}
 
 
-@media (min-width:1170px) {.robot{width: 3.7%; position: absolute; top:260px;left:130px;}
-        .robot__speak--bubble  {position: absolute; top: 145px; left: 200px; }
-        .robot__speak--bubble1{position: absolute; top: 145px; left: 180px;}}
+@media (min-width:1170px) {
+    .robot {
+        width: 3.7%;
+        position: absolute;
+        top: 260px;
+        left: 130px;
+    }
 
-@media (min-width:1400px) {.robot{position: absolute; top:280px;}
-.robot__speak--bubble  {position: absolute;left: 220px; }
-        .robot__speak--bubble1{position: absolute;left: 200px;}}
+    .robot__speak--bubble {
+        position: absolute;
+        top: 145px;
+        left: 200px;
+    }
+
+    .robot__speak--bubble1 {
+        position: absolute;
+        top: 145px;
+        left: 180px;
+    }
+}
+
+@media (min-width:1400px) {
+    .robot {
+        position: absolute;
+        top: 280px;
+    }
+
+    .robot__speak--bubble {
+        position: absolute;
+        left: 220px;
+    }
+
+    .robot__speak--bubble1 {
+        position: absolute;
+        left: 200px;
+    }
+}
 
 
-@media (min-width:1550px) {.robot__speak{width: 80vw; max-width: 1418px;}}
+@media (min-width:1550px) {
+    .robot__speak {
+        width: 80vw;
+        max-width: 1418px;
+    }
+}
 
-@media (min-width:1756px) {.robot__speak--bubble  {position: absolute;top:110px;left: 220px; }
-.robot__speak--bubble1{position: absolute;top:110px;left: 200px;}}
+@media (min-width:1756px) {
+    .robot__speak--bubble {
+        position: absolute;
+        top: 110px;
+        left: 220px;
+    }
 
-@keyframes transf-color{
-    0%{color: black;}
-    25%{color:#524f4f;}
-    50%{color:#524f4f;}
-    75%{color:#524f4f;}
-    90%{color:#524f4f;}
-    100%{color:black;}}
-.intro__title {animation-name: transf-color; animation-duration: 8s; animation-timing-function: linear;}
-.intro__body {animation-name: transf-color; animation-duration: 8s; animation-timing-function: linear;}
+    .robot__speak--bubble1 {
+        position: absolute;
+        top: 110px;
+        left: 200px;
+    }
+}
+
+@keyframes transf-color {
+    0% {
+        color: black;
+    }
+
+    25% {
+        color: #524f4f;
+    }
+
+    50% {
+        color: #524f4f;
+    }
+
+    75% {
+        color: #524f4f;
+    }
+
+    90% {
+        color: #524f4f;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+.intro__title {
+    animation-name: transf-color;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+.intro__body {
+    animation-name: transf-color;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}

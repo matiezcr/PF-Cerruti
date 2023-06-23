@@ -1,23 +1,194 @@
-.articulos__section{margin-top: 40px; align-items: center; text-align: center;.articles__separation{display: flex;flex-direction: column; align-items: center; gap: 10vw;.separation__cs-formales{margin-top:5vw;ul{display: flex;flex-direction: column;gap:30px}};.separation__cs-facticas{ul{display: flex;flex-direction: column;gap: 30px;}}}}
-.articulos__section div ul li {width: 60vw;height: 60vw; padding: 2vw; border: 2px solid $black; border-radius: 10px; box-shadow: 10px 10px 10px $black;}
-.articulos__section div ul li:hover {border: 2px solid $green; border-radius: 10px; box-shadow: 10px 10px 10px $green;}
+.articulos__section {
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+
+    .articles__separation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10vw;
+
+        .separation__cs-formales {
+            margin-top: 5vw;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 30px
+            }
+        }
+
+        ;
+
+        .separation__cs-facticas {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    }
+}
+
+.articulos__section div ul li {
+    width: 60vw;
+    height: 60vw;
+    padding: 2vw;
+    border: 2px solid $black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px $black;
+
+    &:hover {
+        border: 2px solid $green;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px $green;
+    }
+}
 
 
-.ciencias-mat{background-image: url(../img/articulos/ciencias-mat.jpg);background-size: cover;display: flex; align-items: end; justify-content: center;}
-.ciencias-cp{background-image: url(../img/articulos/ciencias-cp.jpg);background-size: cover;display: flex; align-items: start; justify-content: center;}
-.ciencias-nat{background-image: url(../img/articulos/ciencias-nat.jpg);background-size: cover; display: flex; align-items: end; justify-content: center;}
-.ciencias-soc{background-image: url(../img/articulos/ciencias-soc.jpg);background-size: cover; display: flex; align-items: end; justify-content: center;}
+.ciencias-mat {
+    background-image: url(../img/articulos/ciencias-mat.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
 
-@media(min-width:876px){
-    .articulos__section{h2{font-size: 2.5rem};h3{font-size: 2rem};margin-top: 50px; align-items: center; text-align: center;.articles__separation{display: flex;flex-direction: column;justify-content: center ;align-items: center; gap: 10vw;.separation__cs-formales{margin-top:5vw; display: flex; flex-direction: column; gap: 20px;ul{display: flex;flex-direction: row;gap:30px}};.separation__cs-facticas{display: flex; flex-direction: column; gap: 20px;ul{display: flex;flex-direction: row;gap: 30px;}}}}
-.articulos__section div ul li {width: 30vw;height: 30vw; h4{font-size: 1.5rem;}}
+.ciencias-cp {
+    background-image: url(../img/articulos/ciencias-cp.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.ciencias-nat {
+    background-image: url(../img/articulos/ciencias-nat.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.ciencias-soc {
+    background-image: url(../img/articulos/ciencias-soc.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+@media(min-width:876px) {
+    .articulos__section {
+        h2 {
+            font-size: 2.5rem
+        }
+
+        ;
+
+        h3 {
+            font-size: 2rem
+        }
+
+        ;
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+
+        .articles__separation {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10vw;
+
+            .separation__cs-formales {
+                margin-top: 5vw;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 30px
+                }
+            }
+
+            ;
+
+            .separation__cs-facticas {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 30px;
+                }
+            }
+        }
+    }
+
+    .articulos__section div ul li {
+        width: 30vw;
+        height: 30vw;
+
+        h4 {
+            font-size: 1.5rem;
+        }
+    }
 }
 
 @media (min-width: 1024px) {
-    .articulos__section {margin-top: 0;margin-top: 4vw;}
-    .articulos__section div ul li {width: 30vw;height: 30vw; padding: 2vw;}
-    .articulos__section div ul{gap: 5vw;}
+    .articulos__section {
+        margin-top: 0;
+        margin-top: 4vw;
+    }
+
+    .articulos__section div ul li {
+        width: 30vw;
+        height: 30vw;
+        padding: 2vw;
+    }
+
+    .articulos__section div ul {
+        gap: 5vw;
+    }
 }
 
-@media(min-width:1400px){.articulos__section{margin-top: 2vw;.articles__separation{display: flex;flex-direction: row;align-items: center; justify-content: center;.separation__cs-formales{margin-top: 0;};.separation__cs-facticas{margin-right: 1vw};ul {gap: 2vw;li {width: 17vw;height: 17vw;}}}}}
+@media(min-width:1400px) {
+    .articulos__section {
+        margin-top: 2vw;
 
+        .articles__separation {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .separation__cs-formales {
+                margin-top: 0;
+            }
+
+            ;
+
+            .separation__cs-facticas {
+                margin-right: 1vw
+            }
+
+            ;
+
+            ul {
+                gap: 2vw;
+
+                li {
+                    width: 17vw;
+                    height: 17vw;
+                }
+            }
+        }
+    }
+}

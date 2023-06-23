@@ -102,8 +102,9 @@ div {
         padding: 30px;
         text-align: start;
         align-items: center;
-        display: flex; 
-        flex-direction: row; gap: 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
 
         h2 {
             font-size: 1.8rem
@@ -146,23 +147,25 @@ div {
             flex-direction: row;
             gap: 40px;
             align-items: center;
-            padding-left: 40px; padding-right: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
             margin-top: 10px;
         }
 
         ul {
-            li{
-            p {
-                font-size: 1rem
-            }
+            li {
+                p {
+                    font-size: 1rem
+                }
 
-            ;
+                ;
 
-            span {
-                font-size: 0.9rem
+                span {
+                    font-size: 0.9rem
+                }
             }
-            }}
-        
+        }
+
 
         ;
 
@@ -216,33 +219,32 @@ div {
 
         h4 {
             font-size: 1.5rem;
-            margin-top: 30px; 
+            margin-top: 30px;
         }
 
         ;
 
         .body__eventos-form {
-            display: flex;
-            flex-direction: row;
             gap: 30px;
-            align-items: center; justify-content: center;
-            padding-left: 20px; padding-right: 20px;
-            margin-top: 10px;
+            justify-content: center;
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         ul {
-            li{
-            p {
-                font-size: 1.1rem
-            }
+            li {
+                p {
+                    font-size: 1.1rem
+                }
 
-            ;
+                ;
 
-            span {
-                font-size: 1rem
+                span {
+                    font-size: 1rem
+                }
             }
-            }}
-        
+        }
+
 
         ;
 
@@ -256,7 +258,7 @@ div {
 
             select {
                 font-size: 1rem;
-                width:204px;
+                width: 204px;
             }
 
             ;
@@ -275,86 +277,88 @@ div {
         display: inline;
         color: blue;
         cursor: pointer;
-    }
 
-    .view-more:hover .info {
-        display: block;
-        color: $black;
-    }
-}
-
-@media(min-width:1400px){ .eventos__intro {
-    h2 {
-        font-size: 2.3rem
-    }
-
-    p {
-        font-size: 2rem;
+        &:hover .info {
+            display: block;
+            color: $black;
+        }
     }
 }
 
-div {
-    svg {
-        width: 300px;
-        height: 300px;
-    }
-}
+@media(min-width:1400px) {
+    .eventos__intro {
+        h2 {
+            font-size: 2.3rem
+        }
 
-.eventos__body {
-
-    h3 {
-        font-size: 2.3rem;
-    }
-
-    p {
-        font-size: 2rem;
-    }
-
-    ;
-
-    h4 {
-        font-size: 1.8rem;
-    }
-
-    ;
-
-    .body__eventos-form {
-    ul {
-        li{
         p {
-            font-size: 1.3rem
-        }
-
-        ;
-
-        span {
-            font-size: 1.2rem
-        }
-        }}
-    
-
-    ;
-
-    form {
-        input {
-            width: 300px;
-            font-size: 1.2rem
-        }
-
-        ;
-
-        select {
-            font-size: 1.2rem;
-            width:304.5px;
-        }
-
-        ;
-
-        .btn {
-            font-size: 1.2rem;
-            width:100px;
+            font-size: 2rem;
         }
     }
-}
-}
+
+    div {
+        svg {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .eventos__body {
+
+        h3 {
+            font-size: 2.3rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        ;
+
+        h4 {
+            font-size: 1.8rem;
+        }
+
+        ;
+
+        .body__eventos-form {
+            ul {
+                li {
+                    p {
+                        font-size: 1.3rem
+                    }
+
+                    ;
+
+                    span {
+                        font-size: 1.2rem
+                    }
+                }
+            }
+
+
+            ;
+
+            form {
+                input {
+                    width: 300px;
+                    font-size: 1.2rem
+                }
+
+                ;
+
+                select {
+                    font-size: 1.2rem;
+                    width: 304.5px;
+                }
+
+                ;
+
+                .btn {
+                    font-size: 1.2rem;
+                    width: 100px;
+                }
+            }
+        }
+    }
 }

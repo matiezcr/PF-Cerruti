@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -90,6 +91,9 @@ nav {
 .nav__list li a {
   color: white;
 }
+.nav__list li a:hover {
+  color: #45e052;
+}
 
 @media (max-width: 875px) {
   nav {
@@ -116,16 +120,14 @@ nav {
     align-items: end;
     gap: 15px;
   }
-  .nav__menu--abrir, .nav__menu--cerrar {
+  .nav__menu--abrir,
+  .nav__menu--cerrar {
     display: block;
     border: 0;
     font-size: 25px;
     background-color: transparent;
     color: white;
     cursor: pointer;
-  }
-  .nav__list li a {
-    color: white;
   }
   .logo {
     height: 45px;
@@ -137,10 +139,6 @@ nav {
     font-size: 1rem;
   }
 }
-.nav__list li:hover a {
-  color: #45e052;
-}
-
 footer {
   background-color: black;
   color: white;
@@ -778,16 +776,16 @@ span {
   align-items: center;
   gap: 3vw;
 }
+.body1 article:hover {
+  border: #45e052 solid 1.5px;
+  box-shadow: 1px 1px 15px 5px #45e052;
+}
 .body1 article .body1__highlighted {
   padding: 3vw;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1.5vw;
-}
-.body1 article:hover {
-  border: #45e052 solid 1.5px;
-  box-shadow: 1px 1px 15px 5px #45e052;
 }
 .body1 .body1__img {
   width: 85vw;
@@ -983,7 +981,7 @@ span {
   background-size: cover;
 }
 
-.item__text {
+.item__text, .item__text3 {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1009,33 +1007,7 @@ span {
   width: 70vw;
 }
 
-.item__text3 {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  text-align: start;
-  height: 70vw;
-  width: 70vw;
-}
-
-.item__text4 {
-  position: absolute;
-  bottom: 10px;
-  left: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: start;
-  text-align: start;
-  height: 70vw;
-  width: 70vw;
-}
-
-.item__text5 {
+.item__text4, .item__text5 {
   position: absolute;
   bottom: 10px;
   left: 5px;
@@ -1057,7 +1029,8 @@ span {
   display: none;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -1134,7 +1107,7 @@ span {
     height: 40vw;
     width: 40vw;
   }
-  .item__text {
+  .item__text, .item__text3 {
     height: 30vw;
     width: 30vw;
   }
@@ -1146,13 +1119,18 @@ span {
     height: 30vw;
     width: 30vw;
   }
-  .item__text4 {
+  .item__text4, .item__text5 {
     height: 30vw;
     width: 30vw;
   }
   .item__text5 {
     height: 30vw;
     width: 30vw;
+  }
+  .prev,
+  .next {
+    padding: 10px;
+    font-size: 30px;
   }
 }
 @media (min-width: 1200px) {
@@ -1198,7 +1176,7 @@ span {
     height: 32vw;
     width: 32vw;
   }
-  .item__text {
+  .item__text, .item__text3 {
     height: 25vw;
     width: 25vw;
   }
@@ -1210,7 +1188,7 @@ span {
     height: 25vw;
     width: 25vw;
   }
-  .item__text4 {
+  .item__text4, .item__text5 {
     height: 25vw;
     width: 25vw;
   }
@@ -1400,6 +1378,10 @@ span {
   flex-direction: column;
   align-items: center;
 }
+.recent-articles a article:hover {
+  border: #45e052 solid 1.5px;
+  box-shadow: 5px 5px 10px #45e052;
+}
 .recent-articles a article div {
   padding: 10px;
 }
@@ -1408,11 +1390,6 @@ span {
 }
 .recent-articles a article img {
   width: 80vw;
-}
-
-.recent-articles article:hover {
-  border: #45e052 solid 1.5px;
-  box-shadow: 5px 5px 10px #45e052;
 }
 
 @media (min-width: 876px) {
@@ -1460,7 +1437,6 @@ span {
   .recent-articles .recent-articles__body {
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
-    gap: 25px;
   }
   .recent-articles .recent-articles__body a article {
     width: 20vw;
@@ -1491,6 +1467,10 @@ span {
   box-shadow: 5px 5px 10px black;
   text-align: center;
 }
+.section__articles aside div a article:hover {
+  border: #45e052 solid 1.5px;
+  box-shadow: 5px 5px 10px #45e052;
+}
 .section__articles aside div a article div {
   padding: 10px;
 }
@@ -1499,11 +1479,6 @@ span {
 }
 .section__articles aside div a article img {
   width: 80vw;
-}
-
-.section__articles article:hover {
-  border: #45e052 solid 1.5px;
-  box-shadow: 5px 5px 10px #45e052;
 }
 
 @media (min-width: 876px) {
@@ -1564,7 +1539,6 @@ span {
   border-radius: 10px;
   box-shadow: 10px 10px 10px black;
 }
-
 .articulos__section div ul li:hover {
   border: 2px solid #45e052;
   border-radius: 10px;
@@ -1839,14 +1813,10 @@ div svg {
     margin-top: 30px;
   }
   .eventos__body .body__eventos-form {
-    display: flex;
-    flex-direction: row;
     gap: 30px;
-    align-items: center;
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 10px;
   }
   .eventos__body ul li p {
     font-size: 1.1rem;

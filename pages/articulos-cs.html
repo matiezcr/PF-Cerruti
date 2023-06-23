@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mira nuestros artículos ordenados, podes buscar el artículo por su nombre o filtrarlo.">
+    <meta name="description"
+        content="Mira nuestros artículos ordenados, podes buscar el artículo por su nombre o filtrarlo.">
     <link rel="shortcut icon" href="../img/logo-h(c).png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Vollkorn&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Artículos | Hablemos de Ciencia</title>
 </head>
+
 <body>
     <header>
         <div class="header__title--left">
@@ -42,107 +46,151 @@
                 </div>
                 <div class="recent-articles__title-r">
                     <form>
-                        <input type="search" id="search" placeholder="Buscar">
-                        <button><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"/></svg></button>
+                        <input type="search" placeholder="Buscar">
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+                                <path
+                                    d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z" />
+                            </svg></button>
                     </form>
                     <div>
-                    <div>
-                        <form action="#">
-                            <label for="ordenar">Ordenar por</label>
-                            <select id="ordenar">
-                              <option>Autor</option>
-                              <option>Países</option>
-                              <option>Más antigüo</option>
-                              <option>Más reciente</option>
-                              <option>Subtipo de ciencia</option>
-                            </select>
-                        </form>
-                    </div>
-                    <div>
-                        <form action="#">
-                            <label for="ordenar">Filtrar por</label>
-                            <select id="ordenar">
-                                <option>Ciencias antropológicas</option>
-                                <option>Ciencias geográficas</option>
-                                <option>Ciencias políticas</option>
-                                <option>Ciencias psicológicas</option>
-                                <option>Ciencias sociológicas</option>
-                            </select>
-                        </form>
-                    </div>
+                        <div>
+                            <form action="#">
+                                <label for="ordenar__cs">Ordenar por</label>
+                                <select id="ordenar__cs">
+                                    <option>Autor</option>
+                                    <option>Países</option>
+                                    <option>Más antigüo</option>
+                                    <option>Más reciente</option>
+                                    <option>Subtipo de ciencia</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <form action="#">
+                                <label for="filtrar__cs">Filtrar por</label>
+                                <select id="filtrar__cs">
+                                    <option>Ciencias antropológicas</option>
+                                    <option>Ciencias geográficas</option>
+                                    <option>Ciencias políticas</option>
+                                    <option>Ciencias psicológicas</option>
+                                    <option>Ciencias sociológicas</option>
+                                </select>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="recent-articles__body">
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a>
-            <a href="./articulo-de-muestra.html"><article>
-                <div>
-                <h3>Nombre del artículo</h3>
-                <span>Fecha de publicación</span>
-                <p>(Ciencias xxxxxxx)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p></div>
-                <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
-            </article></a></div>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+                <a href="./articulo-de-muestra.html">
+                    <article>
+                        <div>
+                            <h3>Nombre del artículo</h3>
+                            <span>Fecha de publicación</span>
+                            <p>(Ciencias xxxxxxx)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur neque
+                                expedita dolores, perferendis ratione atque inventore, nesciunt voluptatibus error
+                                reiciendis harum laborum beatae cumque veniam. Ex alias facilis delectus.</p>
+                        </div>
+                        <div><img src="../img/generalizacion.jpg" alt="Imagen del artículo"></div>
+                    </article>
+                </a>
+            </div>
         </section>
     </main>
 
 
-    
+
     <footer>
         <div class="footer__socialnt">
             <h3>Seguinos en</h3>
@@ -175,7 +223,9 @@
         </div>
         <div class="footer__aboutus">
             <h3>¿Querés formar parte de nuestra comunidad?</h3>
-            <p>Acá en Hablemos de Ciencia te preparamos para que puedas escribir artículos de ciencias y puedas formar parte de este comunidad hermosa. Pero primero enterate <a href="./pages/quienessomos.html">quiénes somos y qué hacemos.</a></p>
+            <p>Acá en Hablemos de Ciencia te preparamos para que puedas escribir artículos de ciencias y puedas formar
+                parte de este comunidad hermosa. Pero primero enterate <a href="./pages/quienessomos.html">quiénes somos
+                    y qué hacemos.</a></p>
         </div>
         <div class="footer__qr">
             <img class="footer4-img" src="../img/qr-proyecto.png" alt="Qr para escanear desde el celu">
@@ -184,4 +234,5 @@
     </footer>
     <script src="../js/main.js"></script>
 </body>
+
 </html>
